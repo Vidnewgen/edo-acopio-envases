@@ -39,17 +39,3 @@
   overflow-x: auto;
 }
 
-@media print {
-
-  header,
-  .sticky {
-    position: static !important;
-  }
-
-  #tabSimBtn,
-  #tabTheoryBtn,
-  #exportCsvBtn,
-  button {
-    display: none !important;
-  }
-}

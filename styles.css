@@ -1,0 +1,55 @@
+/* Estilos personalizados complementarios a Tailwind CSS */
+
+.input-field {
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #4C9A2A;
+  box-shadow: 0 0 0 2px rgba(76, 154, 42, 0.25);
+}
+
+.tab-btn {
+  color: #475569;
+  background-color: #f1f5f9;
+}
+
+.tab-btn:hover {
+  background-color: #e2e8f0;
+}
+
+.tab-btn.active-tab {
+  background-color: #1E5631;
+  color: #ffffff;
+}
+
+.formula-box {
+  background-color: #f8fafc;
+  border-left: 4px solid #1E5631;
+  padding: 0.85rem 1rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85rem;
+  border-radius: 0.375rem;
+  overflow-x: auto;
+}
+
+@media print {
+
+  header,
+  .sticky {
+    position: static !important;
+  }
+
+  #tabSimBtn,
+  #tabTheoryBtn,
+  #exportCsvBtn,
+  button {
+    display: none !important;
+  }
+}

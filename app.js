@@ -499,11 +499,12 @@ function renderTheoryDocument(y0, I, k, h1, h2, tMax, capMax, dataH1, dataH2) {
         método en sí no va a ser el problema.
       </p>
       <p class="text-slate-700">
-        Una <strong>limitación importante del modelo</strong> es que asume un flujo de ingreso
-        completamente constante semana a semana, lo cual no siempre es real. En época de fiestas
-        o campañas de reciclaje, pueden llegar el doble de envases. Además, el modelo no considera
-        que la recicladora pueda fallar en sus retiros o llegar con retraso. Incluir esas variaciones
-        requeriría modelos más complejos, posiblemente con ecuaciones no lineales o estocásticas.
+        Una <strong>limitación importante del modelo</strong> es que se trata de una aproximación teórica:
+        las simulaciones numéricas no deben interpretarse como predicciones absolutas o comprobadas sin contrastarlas
+        con datos empíricos de campo. En la práctica barrial, el ingreso de envases no es perfectamente uniforme (fluctúa
+        según festividades o campañas vecinales) y la logística de retiro de la recicladora puede sufrir retrasos.
+        No obstante, la EDO de primer orden cumple una función esencial: brinda a la comunidad un marco cuantitativo
+        claro para dimensionar riesgos de saturación, negociar frecuencias mínimas de recolección y tomar decisiones preventivas.
       </p>
     </div>
   `;
